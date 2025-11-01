@@ -1,7 +1,7 @@
 # Python Cheatsheet (Beginner)
 
 ## Types
-- `int`, `float`, `str`, `bool`, `list`, `dict`
+- `int`, `float`, `str`, `bool`, `list`, `dict`, `tuple`, `set`
 
 ## Common patterns
 ```python
@@ -19,4 +19,8 @@ for i in range(5):
 # function
 def greet(n):
     return f"Hello, {n}!"
-```
+
+# while
+player_alive = True
+while player_alive:
+    # Game code
